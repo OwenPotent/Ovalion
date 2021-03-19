@@ -5,13 +5,13 @@
  
  TO-DO LIST:
  
- [] Full Moderation Commands
- [] Full Fun Commands
- [] Full Utility Commands
- [] Add Database to support per-server commands
- [] Add Dockerfile
- [x] Create basefile
- [] Add Event Handlers
+ [] Full Moderation Commands  
+ [] Full Fun Commands  
+ [] Full Utility Commands  
+ [] Add Database to support per-server commands  
+ [] Add Dockerfile  
+ [x] Create basefile  
+ [] Add Event Handlers  
  
 # What does Ovalion feature?
 
