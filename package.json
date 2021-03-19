@@ -1,0 +1,17 @@
+{
+  "name": "Ovalion",
+  "version": "1.0.0",
+  "description": "A multipurpose bot made for moderation, utility, fun and more!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "env": "^0.0.2",
+    "wokcommands": "^1.2.8"
+  }
+}
