@@ -4,6 +4,6 @@ module.exports = {
     category: 'Utility',
     cooldown: '5s',
     callback: ({ message, client }) => {
-        message.reply(`Pong! API latency is ${(Math.round(client.ws.ping))}`)
+        message.reply(`Pong! API latency is ${(Math.round(client.ws.ping))}ms`)
     }
 }
