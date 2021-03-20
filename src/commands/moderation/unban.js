@@ -3,6 +3,7 @@ const { MessageEmbed } = require('discord.js')
 module.exports = {
     category: "Moderation",
     expectedArgs: "<userID> [reason]",
+    guildOnly: true,
     callback: async ({ client, message, args }) => {
         if (!message.member.hasPermission('BAN_MEMBERS')) return message.channel.send('You are missing **BAN_MEMBERS** permission!').then(m => m.delete({ timeout: 5000 }));
 

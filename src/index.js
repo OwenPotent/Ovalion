@@ -9,7 +9,8 @@ const client = new Discord.Client()
 
 const disabledDefaultCommands = [
     'prefix',
-    'requiredrole'
+    'requiredrole',
+    'help'
   ]
 
 client.on('ready', () => {
@@ -41,6 +42,10 @@ client.on('ready', () => {
           name: 'Configuration',
           emoji: '🚧',
           hidden: true
+        },
+        {
+          name: 'Info',
+          emoji: '📔'
         },
     ])
 

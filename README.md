@@ -19,3 +19,7 @@
 - Fun commands for you to play with
 - Per-server prefix
 - Dashboard(coming soon)
+
+# Can I self-host this?
+
+Yes you can!
