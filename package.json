@@ -2,10 +2,10 @@
   "name": "Ovalion",
   "version": "1.0.0",
   "description": "A multipurpose bot made for moderation, utility, fun and more!",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "node": "nodemon src/index.js",
+    "start": "node index.js",
+    "node": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +16,7 @@
     "discord.js": "^12.5.1",
     "env": "^0.0.2",
     "moment": "^2.29.1",
+    "mongoose": "^5.12.2",
     "nodemon": "^2.0.7",
     "wokcommands": "^1.2.8"
   }

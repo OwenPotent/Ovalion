@@ -1,6 +1,8 @@
 const { MessageEmbed } = require('discord.js')
 
 module.exports = {
+    // slash: 'both',
+    testOnly: true,
     name: 'ping',
     aliases: ['p'],
     description: 'API latency for the bot!',
@@ -12,6 +14,9 @@ module.exports = {
 
         const embed = new MessageEmbed()
         .setColor("GREEN")
-        .setTitle
+        .setTitle("Done!")
+        .setDescription(ping)
+
+        message.channel.send(embed)
     }
 }

@@ -116,8 +116,8 @@ module.exports = {
             const sendEmbed = await message.channel.send(embed);
 
         } catch (err) {
-            console.log('uwu I have a fucky err: ' + err)
-            message.channel.send('uwu I have a fucky err: ' + err)
+            console.log('An error occured: ' + err)
+            message.channel.send('An error occured: ' + err)
         }
   },
 };
